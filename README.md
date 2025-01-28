@@ -1,6 +1,11 @@
-![](icon_128.png)
 
-# Debug CSS [Add to chrome](https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj?hl=en-US&gl=IN) || [Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/) || [Add to Edge](https://microsoftedge.microsoft.com/addons/detail/debug-css/chlajdlkaknpjjgodghbapjhogoigegh)
+
+<!-- # Debug CSS [Add to chrome](https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj?hl=en-US&gl=IN) || [Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/) || [Add to Edge](https://microsoftedge.microsoft.com/addons/detail/debug-css/chlajdlkaknpjjgodghbapjhogoigegh) -->
+
+
+`This is a fork of Debug CSS by Pranay Joshi to work with chrome manifest v3`
+https://github.com/pranayjoshicse/Debug-CSS
+
 
 A lightweight extension for Google chrome and mozilla Firefox to show outline of all the element exist on page.
 
@@ -26,10 +31,11 @@ This extension works on CSS outline attribute:
 add the below code snippet in any CSS of a web page 
 
 
-`
+```css
   * {
 	outline: 1px solid red;
-  }`
+  }
+```
 
 The extension does the same the only thing is; it gives different color to different element(s) while the code snippet adds red outline to every element.  
 
@@ -37,13 +43,9 @@ The extension does the same the only thing is; it gives different color to diffe
 
 # In Action
 
-
-
 - Once installed extension will be listed to the `chrome:\\extension URL` and a small icon will be available next to address bar
 
 <img src="img/listing.PNG" width="374">
-
-
 
 - Click the extension icon to toggle debug CSS or use shortcut key (Shift+Alt+C)
 
@@ -56,32 +58,11 @@ To get more detail about any element hold Ctrl key and hover on it, a info bar a
 
 ----------
 
-# Other work and repository
-
-[A lightweight customizable plugin for jQuery to show horizontal length in form of vertical progress bar.](https://github.com/pranayjoshicse/VerLim.js)
-
-
-[listed on jqueryscript.net](https://www.jqueryscript.net/other/Simple-Custom-Reading-Indicator-with-jQuery-VerLim-js.html)
-
-[Demo](https://www.jqueryscript.net/demo/Simple-Custom-Reading-Indicator-with-jQuery-VerLim-js/)
-
-
-----------
-
-# More about me
-
-[twitter.](https://twitter.com/pranayjoshicse)
-[about me.](https://about.me/pranayjoshi)
-
-
-----------
-
-
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Pranay Joshi
+Copyright (c) 2025 m4x809
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -3,8 +3,8 @@
 
 	"manifest_version": 3,
 
-	"name": "Debug CSS",
-	"short_name": "Debug CSS by Pranay Joshi",
+	"name": "Debug CSS v3",
+	"short_name": "Debug CSS v3 by max809",
 	"description": "Adds outline to all elements on the page to show the culprit element which is changing desired layout, Hold Ctrl and hover to get more detail",
 	"version": "1.1",
 
