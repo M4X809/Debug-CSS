@@ -15,6 +15,13 @@ function updateInfoBar(e) {
 	const o = e.target.nodeName.toLowerCase() || "";
 	if (!infoBar) return !1;
 	infoBar.innerHTML = `<p>Hovered Element Detail(s)= { Element Type: <b> ${o}</b>; Class(es) Applied: <b> ${t}</b>; Element Id: <b> ${n}</b>; }</p>`;
+	infoBar.style.display = "absolute";
+	infoBar.style.zIndex = "1000000";
+	infoBar.style.backgroundColor = "black";
+	infoBar.style.color = "white";
+	infoBar.style.padding = "10px";
+	infoBar.style.border = "1px solid black";
+	infoBar.style.borderRadius = "5px";
 }
 
 /** @param {any} e */
